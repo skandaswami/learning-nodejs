@@ -1,0 +1,44 @@
+#Notes on the Udemy Course on Nodejs
+
+Section 1
+----------------------------------
+  Lecture 1
+  -----------
+  Intro
+  Lecture 2 & 3
+  --------------
+  Node Setup and installation
+  Lecture 4
+  ----------
+  Node adds more features to JavaScript allowing it to run as a server side language.
+  Runs on the open source V8 engine maintained by Google. V8 is written in C++. The v8 engine compiles the JavaScript code into machine language.
+  V8 is quick and as a result node is also quick.
+  Shows how to run a simple node app.
+  Shows similarity between client side JavaScript and Node. Shows similarity between node's global and the window object in JavaScript. Also shows how process in Node, and a document in the DOM.
+  To access node through the terminal just type in 'node'.
+  exit by using process.exit(0) or by pressing crtl+c twice.
+
+  Lecture 5
+  ------------
+
+  Node is non blocking allowing i/o to be done in an asynchronous way.This is done from the ground up. It's just the way Node was built.
+
+  Shows the difference between blocking and non blocking approaches and how the non blocking model saves time.
+
+  'Blocking' occurs whenever any operation like an i/o operation for example holds up other parts of a program from executing because when a blocking operation occurs, every other operation is held up.
+
+  Non blocking operations start whatever operations need to be performed and continue to execute the other operations. This doesn't reduce the time required to perform these operations but does allow them to proceed in a way that allows other operations to execute.It forces everything to occur in order.
+
+  Traditionally each request spawns a new thread in the blocking model,while each request can be run on a different thread, apparently this does not scale very well leading to higher usage of the CPU and RAM. Nodejs however operates on a single thread. Non blocking uses callbacks to allow things to happen out of order as and when they complete.
+
+  This is done in Nodejs using a eevnt loop, which attaches a listener that waits for the data to be available before starting whatever operation needs to be performed.
+
+  Node also has a thriving open source community which means that there a lot of libraries for solving common problems and a lot of support for any issues faced during development.
+
+    Lecture 6
+    ------------
+    Installs the Atom text editor.
+
+    Lecture 7
+    -------------
+    Creates a simple node app that says hello world.
