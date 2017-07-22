@@ -1,6 +1,6 @@
 #Notes on the Udemy Course on Nodejs
 
-Section 1
+Section 2
 ----------------------------------
   Lecture 1
   -----------
@@ -42,3 +42,14 @@ Section 1
     Lecture 7
     -------------
     Creates a simple node app that says hello world.
+
+Section 2
+-----------------------------------------------------------
+  Lecture 8
+  ------------
+  Section Intro
+
+  Lecture 9
+  --------------
+  require allows us to load modules that are bundled with nodejs as well as third party libraries and other files.
+  <Code is available for this lecture>
