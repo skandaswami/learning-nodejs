@@ -53,3 +53,9 @@ Section 2
   --------------
   require allows us to load modules that are bundled with nodejs as well as third party libraries and other files.
   <Code is available for this lecture>
+
+  If you use the templating style to refer to variables in node, be sure to include them in backticks instead of regular quotation marks. This tells node what to look out for.
+  Lecture 10
+  ----------------
+  Importing a custom file requires you to specify a relative path.
+  The folder that contains the app.js file is considered the root folder and can be referred to using './' followed by whatever the path is to the file that needs to be imported.
